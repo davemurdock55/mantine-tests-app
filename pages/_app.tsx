@@ -1,6 +1,7 @@
 import { AppProps } from 'next/app';
 import Head from 'next/head';
 import { MantineProvider } from '@mantine/core';
+
 // 1. import `NextUIProvider` component
 import { NextUIProvider } from '@nextui-org/react';
 

@@ -7,6 +7,7 @@ import { Grid, Card, Text } from "@nextui-org/react";
 import { Button } from "@nextui-org/react";
 import { useMediaQuery } from './useMediaQuery.js'
 import { RealmCard } from '../components/RealmCard.js'
+import { MantineRealmCard } from "../components/MantineRealmCard.js"
 
 
 
@@ -53,12 +54,15 @@ export default function Home()
         <Grid.Container gap={4} justify="center">
 
           <Grid xs={12} md={10} lg={8} >
-            {/* <MockItem text="1 of 2" /> */}
-            <RealmCard title="Aeyrelia" />
+            <RealmCard title="Aeyrelia" imageUrl="/img/A_New_Beginning.jpeg" />
           </Grid>
 
           <Grid xs={12} md={10} lg={8} >
-            <RealmCard title="Akila" />
+            <RealmCard title="Akila" imageUrl="https://i.pinimg.com/564x/48/05/1c/48051c35ae67e0425e205a3ad8d2127c.jpg" />
+          </Grid>
+
+          <Grid xs={12} md={10} lg={8} >
+            <MantineRealmCard />
           </Grid>
 
         </Grid.Container>
