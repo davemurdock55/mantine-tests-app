@@ -12,7 +12,11 @@ import WikiRealms from '../WikiRealms.json';
 import Link from 'next/link'
 
 
+
+
 const inter = Inter({ subsets: ['latin'] })
+
+
 
 export default function Home()
 {
@@ -38,9 +42,13 @@ export default function Home()
         <Grid.Container gap={4} justify="center">
 
           {WikiRealms.realms.map((realm) => (
-            <Grid xs={12} md={10} lg={8} key={realm['realm-id']} >
-              <RealmCard title={realm['realm-name']} imageUrl={realm['realm-header-image']} />
-            </Grid>
+
+              <Grid xs={12} sm={8} md={8} lg={8} key={realm['realm-id']} justify='center' >
+                {/* <Link href={`/${realm['realm-id']}`} key={realm['realm-id']}> */}
+                  <RealmCard realmId={realm['realm-id']} title={realm['realm-name']} imageUrl={realm['realm-header-image']} />
+                {/* </Link> */}
+              </Grid>
+
           ))}
 
           {/* <Grid xs={12} md={10} lg={8} >
