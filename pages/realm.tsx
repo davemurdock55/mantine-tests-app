@@ -20,7 +20,7 @@ export default function Home()
   return (
     <>
       <Head>
-        <title>Wiki Realms | Realms</title>
+        <title>{ }</title>
       </Head>
 
 
@@ -31,9 +31,6 @@ export default function Home()
           <Text h1 color="secondary">Wiki Realms</Text>
         </div>
 
-        {/* <div className={styles.center}>
-          <Button color="secondary" ghost auto>Hello there!</Button>
-        </div> */}
 
         <Grid.Container gap={4} justify="center">
 
@@ -43,9 +40,6 @@ export default function Home()
             </Grid>
           ))}
 
-          {/* <Grid xs={12} md={10} lg={8} >
-            <MantineRealmCard imageUrl="https://i.pinimg.com/564x/cd/94/4e/cd944edf167bff52e49bd24777e5bd15.jpg"/>
-          </Grid> */}
 
         </Grid.Container>
 

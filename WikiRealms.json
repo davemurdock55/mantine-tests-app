@@ -1,0 +1,110 @@
+{
+   "realms": [
+      {
+         "realm-id": 1,
+         "realm-name": "Aeyrelia",
+         "realm-header-image": "/img/A_New_Beginning.jpeg",
+         "settings": [
+            {
+               "setting-id": "1",
+               "setting-name": "Earth"
+            },
+            {
+               "setting-id": "2",
+               "setting-name": "Idyll"
+            },
+            {
+               "setting-id": "3",
+               "setting-name": "Diadia"
+            }
+         ],
+         "characters": [
+            {
+               "character-id": "1",
+               "charachter-fname": "Malin",
+               "character-lname": "Elion"
+            },
+            {
+               "character-id": "2",
+               "character-fname": "Jessica",
+               "character-lname": "Brown"
+            }
+         ],
+         "plot-arcs": [
+            {
+               "plot-arc-id": "1",
+               "plot-arc-setting": "1",
+               "plot-arc-name": "Malin finds crystal"
+            },
+            {
+               "plot-arc-id": "2",
+               "plot-arc-setting": "1",
+               "plot-arc-name": "Malin goes after Jessica on the ship"
+            },
+            {
+               "plot-arc-id": "3",
+               "plot-arc-setting": "2",
+               "plot-arc-name": "Malin gets trnsported to Idyll"
+            },
+            {
+               "plot-arc-id": "4",
+               "plot-arc-setting": "2",
+               "plot-arc-name": "Malin searches for Jessica"
+            }
+         ]
+      },
+      {
+         "realm-id": 2,
+         "realm-name": "Akila",
+         "realm-header-image": "https://i.pinimg.com/564x/48/05/1c/48051c35ae67e0425e205a3ad8d2127c.jpg",
+         "settings": [
+            {
+               "setting-id": "1",
+               "setting-name": "Earth"
+            },
+            {
+               "setting-id": "2",
+               "setting-name": "The burrow"
+            },
+            {
+               "setting-id": "3",
+               "setting-name": "Akila"
+            }
+         ],
+         "characters": [
+            {
+               "character-id": "1",
+               "charachter-fname": "Alex",
+               "character-lname": "Smith"
+            },
+            {
+               "character-id": "2",
+               "character-fname": "Alexandra",
+               "character-lname": "Smith"
+            },
+            {
+               "character-id": "3",
+               "character-fname": "Zoe",
+               "character-lname": null
+            }
+         ],
+         "plot-arcs": [
+            {
+               "plot-arc-id": "1",
+               "plot-arc-setting": "1",
+               "plot-arc-name": "Alex and Alexandra find a dragon egg in the forest"
+            },
+            {
+               "plot-arc-id": "2",
+               "plot-arc-setting": "2",
+               "plot-arc-name": "Alex and Alexandra hatch, raise, and fly Zoe"
+            },
+            {
+               "plot-arc-id": "3",
+               "plot-arc-setting": "2",
+               "plot-arc-name": "Alex and Alexandra get magically transported to Akila"
+            }
+         ]
+      }
+   ]
+}
