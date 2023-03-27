@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { useRouter } from 'next/router';
-import WikiRealms from '../WikiRealms.json';
+import WikiRealms from '../../WikiRealms.json';
 
 export default function RealmPage() {
   const router = useRouter();

@@ -44,9 +44,7 @@ export default function Home()
           {WikiRealms.realms.map((realm) => (
 
               <Grid xs={12} sm={8} md={8} lg={8} key={realm['realm-id']} justify='center' >
-                {/* <Link href={`/${realm['realm-id']}`} key={realm['realm-id']}> */}
                   <RealmCard realmId={realm['realm-id']} title={realm['realm-name']} imageUrl={realm['realm-header-image']} />
-                {/* </Link> */}
               </Grid>
 
           ))}

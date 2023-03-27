@@ -6,13 +6,13 @@ export const RealmCard = ({ realmId, title, imageUrl }) =>
 {
   const router = useRouter();
 
-  const handlePress = () =>
+  const routeToRealmPage = () =>
   {
-    router.push(`/${realmId}`)
+    router.push(`/${title}/${realmId}`)
   };
 
   return (
-    <Card isPressable isHoverable onPress={ handlePress }>
+    <Card isPressable isHoverable onPress={ routeToRealmPage }>
     <Card.Header css={ { position: "absolute", zIndex: 1, top: 5 } }>
       <Col>
         <Text
