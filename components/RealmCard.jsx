@@ -1,4 +1,4 @@
-import { Grid, Card, Col, Text, media } from "@nextui-org/react";
+import { Card, Col, Text } from "@nextui-org/react";
 import { Rating } from "@mantine/core";
 import { useRouter } from "next/router";
 

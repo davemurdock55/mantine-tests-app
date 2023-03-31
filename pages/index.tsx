@@ -3,13 +3,12 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 // import { Button } from '@mantine/core'
-import { Grid, Card, Text } from "@nextui-org/react";
-import { Button } from "@nextui-org/react";
+import { Grid, Text, Button } from "@nextui-org/react";
 import { useMediaQuery } from './useMediaQuery.js'
 import { RealmCard } from '../components/RealmCard.jsx'
 import { MantineRealmCard } from "../components/MantineRealmCard.jsx"
 import WikiRealms from '../WikiRealms.json';
-import Link from 'next/link'
+// import Link from 'next/link'
 
 
 
@@ -32,7 +31,11 @@ export default function Home()
       <main className={styles.main}>
 
         <div className={styles.center}>
-          <Text h1 color="secondary">Wiki Realms</Text>
+          <Text h1
+            size={60}
+            css={{textGradient: "45deg, $purple600 -20%, $pink600 100%"}}
+            weight="bold"
+            >Wiki Realms</Text>
         </div>
 
         {/* <div className={styles.center}>
@@ -43,7 +46,7 @@ export default function Home()
 
           {WikiRealms.realms.map((realm) => (
 
-              <Grid xs={12} sm={8} md={8} lg={8} key={realm['realm-id']} justify='center' >
+            <Grid xs={12} sm={8} md={8} lg={8} key={realm['realm-id']} justify='center' >
                   <RealmCard realmId={realm['realm-id']} title={realm['realm-name']} imageUrl={realm['realm-header-image']} />
               </Grid>
 

@@ -6,50 +6,52 @@
          "realm-header-image": "/img/A_New_Beginning.jpeg",
          "settings": [
             {
-               "setting-id": "1",
-               "setting-name": "Earth"
+               "id": "1",
+               "name": "Earth"
             },
             {
-               "setting-id": "2",
-               "setting-name": "Idyll"
+               "id": "2",
+               "name": "Idyll"
             },
             {
-               "setting-id": "3",
-               "setting-name": "Diadia"
+               "id": "3",
+               "name": "Diadia"
             }
          ],
          "characters": [
             {
-               "character-id": "1",
+               "id": "1",
                "character-fname": "Malin",
-               "character-lname": "Elion"
+               "character-lname": "Elion",
+               "name": "Malin Elion"
             },
             {
-               "character-id": "2",
+               "id": "2",
                "character-fname": "Jessica",
-               "character-lname": "Brown"
+               "character-lname": "Brown",
+               "name": "Jessica Brown"
             }
          ],
          "plot-arcs": [
             {
-               "plot-arc-id": "1",
-               "plot-arc-setting": "1",
-               "plot-arc-name": "Malin finds crystal"
+               "id": "1",
+               "setting": "1",
+               "name": "Malin finds crystal"
             },
             {
-               "plot-arc-id": "2",
-               "plot-arc-setting": "1",
-               "plot-arc-name": "Malin goes after Jessica on the ship"
+               "id": "2",
+               "setting": "1",
+               "name": "Malin goes after Jessica on the ship"
             },
             {
-               "plot-arc-id": "3",
-               "plot-arc-setting": "2",
-               "plot-arc-name": "Malin gets trnsported to Idyll"
+               "id": "3",
+               "setting": "2",
+               "name": "Malin gets transported to Idyll"
             },
             {
-               "plot-arc-id": "4",
-               "plot-arc-setting": "2",
-               "plot-arc-name": "Malin searches for Jessica"
+               "id": "4",
+               "setting": "2",
+               "name": "Malin searches for Jessica"
             }
          ]
       },
@@ -59,50 +61,53 @@
          "realm-header-image": "https://i.pinimg.com/564x/48/05/1c/48051c35ae67e0425e205a3ad8d2127c.jpg",
          "settings": [
             {
-               "setting-id": "1",
-               "setting-name": "Earth"
+               "id": "1",
+               "name": "Earth"
             },
             {
-               "setting-id": "2",
-               "setting-name": "The burrow"
+               "id": "2",
+               "name": "The burrow"
             },
             {
-               "setting-id": "3",
-               "setting-name": "Akila"
+               "id": "3",
+               "name": "Akila"
             }
          ],
          "characters": [
             {
-               "character-id": "1",
+               "id": "1",
                "character-fname": "Alex",
-               "character-lname": "Smith"
+               "character-lname": "Smith",
+               "name": "Alex Smith"
             },
             {
-               "character-id": "2",
+               "id": "2",
                "character-fname": "Alexandra",
-               "character-lname": "Smith"
+               "character-lname": "Smith",
+               "name": "Alexandra Smith"
             },
             {
-               "character-id": "3",
+               "id": "3",
                "character-fname": "Zoe",
-               "character-lname": null
+               "character-lname": null,
+               "name": "Zoe"
             }
          ],
          "plot-arcs": [
             {
-               "plot-arc-id": "1",
-               "plot-arc-setting": "1",
-               "plot-arc-name": "Alex and Alexandra find a dragon egg in the forest"
+               "id": "1",
+               "setting": "1",
+               "name": "Alex and Alexandra find a dragon egg in the forest"
             },
             {
-               "plot-arc-id": "2",
-               "plot-arc-setting": "2",
-               "plot-arc-name": "Alex and Alexandra hatch, raise, and fly Zoe"
+               "id": "2",
+               "setting": "2",
+               "name": "Alex and Alexandra hatch, raise, and fly Zoe"
             },
             {
-               "plot-arc-id": "3",
-               "plot-arc-setting": "2",
-               "plot-arc-name": "Alex and Alexandra get magically transported to Akila"
+               "id": "3",
+               "setting": "2",
+               "name": "Alex and Alexandra get magically transported to Akila"
             }
          ]
       }
